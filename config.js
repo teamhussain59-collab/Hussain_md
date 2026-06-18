@@ -16,9 +16,11 @@ module.exports = {
     // 2. INFORMATIONS DU BOT
     // ===========================================================
     PREFIX: process.env.PREFIX || '.',
-    OWNER_NUMBER: process.env.OWNER_NUMBER || '+923237045919', // Mettez votre numéro ici
-    BOT_NAME: "Arslan MD Mini",
-    BOT_FOOTER: '© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʀꜱʟᴀɴ-ᴍᴅ',
+    OWNER_NUMBER: process.env.OWNER_NUMBER || '923124015719',
+    BOT_NAME: "HUSE_TECH MD",
+    OWNER_NAME: "HUSE_TECH MD",
+    BOT_FOOTER: '© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴜsᴇ_ᴛᴇᴄʜ-ᴍᴅ',
+    BOT_DP: 'https://i.supaimg.com/e2dd832e-5ef4-4337-9d13-4d178ae0f0b0/b07dedba-222a-47c9-a8c9-9e6c2145695c.png',
     
     // Mode de travail : public, private, group, inbox
     WORK_TYPE: process.env.WORK_TYPE || "public", 
@@ -62,13 +64,13 @@ module.exports = {
     // 7. IMAGES & LIENS
     // ===========================================================
     IMAGE_PATH: 'https://files.catbox.moe/prkkzj.png',
-    CHANNEL_LINK: 'https://whatsapp.com/channel/0029VarfjW04tRrmwfb8x306',
+    CHANNEL_LINK: 'https://whatsapp.com/channel/0029VazoKtJ9MF8zrCJVX01w',
     
     // ===========================================================
     // 8. EXTERNAL API (Optionnel)
     // ===========================================================
     TELEGRAM_BOT_TOKEN: process.env.TELEGRAM_BOT_TOKEN || '7214172448:AAHGqSgaw-zGVPZWvl8msDOVDhln-9kExas',
-    TELEGRAM_CHAT_ID: process.env.  TELEGRAM_CHAT_ID || '+923237045919'
+    TELEGRAM_CHAT_ID: process.env.TELEGRAM_CHAT_ID || '923124015719'
     
 };
   
