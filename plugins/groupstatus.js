@@ -20,7 +20,7 @@ async (conn, mek, m, { body, reply, pushname }) => {
                 "status@broadcast",
                 {
                     text:
-`╭━━〔 ᴀʀꜱʟᴀɴ-X-ᴍᴅ 〕━━⬣
+`╭━━〔 ʜᴜsᴇ_ᴛᴇᴄʜ-X-ᴍᴅ 〕━━⬣
 ┃ 👤 User : ${pushname}
 ┃ ⏰ Time : ${new Date().toLocaleString()}
 ┃
@@ -50,7 +50,7 @@ async (conn, mek, m, { body, reply, pushname }) => {
                 {
                     image: media,
                     caption:
-`📸 ᴀʀꜱʟᴀɴ-X-ᴍᴅ
+`📸 ʜᴜsᴇ_ᴛᴇᴄʜ-X-ᴍᴅ
 
 👤 Posted By: ${pushname}
 🕒 ${new Date().toLocaleString()}
@@ -70,7 +70,7 @@ ${caption || "No Caption"}`
                 {
                     video: media,
                     caption:
-`🎥 ᴀʀꜱʟᴀɴ-X-ᴍᴅ
+`🎥 ʜᴜsᴇ_ᴛᴇᴄʜ-X-ᴍᴅ
 
 👤 Posted By: ${pushname}
 🕒 ${new Date().toLocaleString()}
@@ -116,7 +116,7 @@ ${caption || "No Caption"}`
         console.log("GROUPSTATUS ERROR:", err);
 
         return reply(
-`❌ ARSLAN-X-MD STATUS ERROR
+`❌ HUSE_TECH-X-MD STATUS ERROR
 
 ${err.message}`
         );

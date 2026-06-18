@@ -23,7 +23,7 @@ cmd({
         const runtimeHours = Math.floor(runtimeMilliseconds / (1000 * 60 * 60));
 
         const formattedInfo = `
-╭┄┄┄┄[ *ᴀʀꜱʟᴀɴ-ᴍᴅ sᴛᴀᴛᴜs* ]┄┄┄┄
+╭┄┄┄┄[ *ʜᴜsᴇ_ᴛᴇᴄʜ-ᴍᴅ sᴛᴀᴛᴜs* ]┄┄┄┄
 ┊
 ┊     Hi 🫵🏽 ${pushname}
 ┊
@@ -32,7 +32,7 @@ cmd({
 ┊⏳ *ᴜᴘᴛɪᴍᴇ*: ${runtimeHours} hours, ${runtimeMinutes} minutes, ${runtimeSeconds} seconds
 ╰───────────────
 
-> 🤖 *Status*: *Arslan-MD-Mini is Alive and Ready!*
+> 🤖 *Status*: *HUSE_TECH-MD-Mini is Alive and Ready!*
 
 🎉 *Enjoy the Service!*
         `.trim();
@@ -52,7 +52,7 @@ cmd({
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363348739987203@newsletter',
-                    newsletterName: 'ᴀʀꜱʟᴀɴ-ᴍᴅ',
+                    newsletterName: 'ʜᴜsᴇ_ᴛᴇᴄʜ-ᴍᴅ',
                     serverMessageId: 143
                 }
             }

@@ -32,12 +32,12 @@ cmd({
         const date = moment().tz("Africa/Kampala").format("dddd, MMMM Do YYYY");
 
         const caption = `
-╭━━━《 *ᴀʀꜱʟᴀɴ-ᴍᴅ* 》━━━┈⊷
+╭━━━《 *ʜᴜsᴇ_ᴛᴇᴄʜ-ᴍᴅ* 》━━━┈⊷
 ┃ ✦╭─────────────┈⊷
 ┃ ✦│▸ Total Commands : *${totalCommands}*
 ┃ ✦│▸ Time           : ${time}
 ┃ ✦│▸ Date           : ${date}
-┃ ✦│▸ Platform       : arslanmd.xo.je
+┃ ✦│▸ Platform       : huse-tech-md.xo.je
 ┃ ✦╰─────────────┈⊷
 ╰━━━━━━━━━━━━┈⊷
 ${menuText}
@@ -52,7 +52,7 @@ ${menuText}
                 mentionedJid: [m.sender],
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: "120363348739987203@newsletter",
-                    newsletterName: "𝘼𝙧𝙨𝙡𝙖𝙣-𝙈𝘿 𝙈𝙞𝙣𝙞 𝙑²",
+                    newsletterName: "𝘿𝙪𝙞𝙛𝙞-𝙏𝙚𝙘𝙝 𝙈𝙙 𝙏𝙚𝙖𝙢",
                     serverMessageId: 2,
                 },
             },

@@ -29,13 +29,13 @@ async(conn, mek, m, { from, reply, myquoted }) => {
 
         // 3. Message Final Stylé
         const pingMsg = `
-*👑 ARSLAN-MD UPTIME 👑* ⚡
+*👑 HUSE_TECH-MD UPTIME 👑* ⚡
 
 * UPTIME :❯  ${latency}*
 
 *👑 RAM :❯ ${usedMem}MB / ${totalMem}MB
 
-`;
+ `;
 
         // 4. Édition du message (Effet visuel)
         await conn.sendMessage(from, { text: pingMsg, edit: msg.key });
@@ -61,14 +61,14 @@ async(conn, mek, m, { from, myquoted }) => {
     // Création d'une vCard (Fiche contact)
     const vcard = 'BEGIN:VCARD\n' +
                   'VERSION:3.0\n' +
-                  'FN:ArslanMD (Owner)\n' +
-                  'ORG:ArslanMD Corp;\n' +
+                  'FN:HUSE_TECH_MD (Owner)\n' +
+                  'ORG:HUSE_TECH_MD Corp;\n' +
                   `TEL;type=CELL;type=VOICE;waid=${ownerNumber}:${ownerNumber}\n` +
                   'END:VCARD';
 
     await conn.sendMessage(from, {
         contacts: {
-            displayName: 'ARSLAN-MD',
+            displayName: 'HUSE_TECH_MD',
             contacts: [{ vcard }]
         }
     }, { quoted: myquoted });
